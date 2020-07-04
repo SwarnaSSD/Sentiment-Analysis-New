@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+ <title>Sentiment Analysis</title>
+ <link rel="stylesheet" href="project_home.css">
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="#home" class="active"><img src="background.jpg" height="2%" width="2%"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <script>
+
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } 
+        else {
+          x.style.display = "block";
+        }
+      } 
+
+    </script>
+  </div>
+<br>
+<br>
+    <div class="heading"><h1>SENTIMENT ANALYSIS USING SOCIAL MEDIA</h1></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="centerDiv">
+<table width="95%">
+  <div class="imgdiv">
+   <td><pre>         <button type="submit" name="learn" value="myimg"><img src="twitternew.jpg" width="250" height="250" class="imgchange" ></button></td>
+  </div>
+    <div class="imgdiv">
+    <td align ="center"><button type="submit" name="learn" value="myimg"><img src="facebooknew.jpg" width="250" height="250" class="imgchange"></button></td>
+    </div>
+
+    <div class="imgdiv">
+    <td align ="right"><button type="submit" name="learn" value="myimg"><img src="insta.jpg" width="250" height="250" class="imgchange"></button></td>
+    </div></pre>
+</table>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script>
+/* $(document).ready(function(){
+  $('button').click(function(){
+   const name = $('#twitterid').val();
+   alert(name);
+   $('.imgchange').attr('src',`${name}`);
+   const b = $('.imgchange');
+   console.log(b);
+
+  });
+ });
+</script>
+
+</body>
+</html>
